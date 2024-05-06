@@ -17,19 +17,16 @@ a:visited {
   height: 20vw;
   min-width: 320px;
   min-height: 320px;
-  display: flex;
   align-items: center;
-  justify-content: center;
   border-radius: 20%;
   box-shadow: 10px 10px 10px var(--box-shadow-color);
-  background-image: linear-gradient(var(--primary-color), var(--secondary-color));
-  transition: background-image 2s ease;
+  transition: ease-in 0.2s;
 }
 
 .socialMedia:hover {
-  background-image: linear-gradient(var(--primary-color), var(--hover-color));
+  transition: ease-out 0.2s;
+  background-color: var(--hover-color) !important;
 }
-
 
 .socialMedia a {
   position: relative;
@@ -40,7 +37,6 @@ a:visited {
   justify-content: center;
   flex-direction: column;
   border-radius: 20%;
-  text-decoration: none;
 }
 
 .socialMedia img {
