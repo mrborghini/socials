@@ -1,16 +1,17 @@
+import { ReactElement } from "react";
 import { SocialInfo } from "../types/SocialInfo";
 
 interface Props {
     socialInfo: SocialInfo;
 }
 
-function SocialMedia({ socialInfo }: Props) {
+function SocialMedia({ socialInfo }: Props): ReactElement {
     return (
         <>
-            <section className="socialMedia">
-                <a href={socialInfo.url} target="_blank">
-                    <h2>{socialInfo.title}</h2>
-                    <img src={socialInfo.image} alt="" />
+            <section className="socialMedia d-flex flex-justify-c-center b-secondary-color">
+                <a className="text-primary" href={socialInfo.url} target="_blank">
+                    <p>{socialInfo.title}</p>
+                    <img src={socialInfo.image} alt={socialInfo.alt} />
                 </a>
             </section>
         </>

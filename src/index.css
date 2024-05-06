@@ -1,8 +1,10 @@
 :root {
-  --primary-color: #3a3a3a;
-  --secondary-color: #005abb;
+  --primary-color: #0C0C0C;
+  --secondary-color: #481E14;
+  --hover-color: #9B3922;
   --primary-text-color: #DDDDDD;
   --secondary-text-color: #222222;
+  --box-shadow-color: #F2613F;
   --link-color: #00DDDD;
   --link-visited: #007bff;
 }
@@ -11,6 +13,7 @@ html,
 body {
   width: 100vw;
   height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 * {
@@ -20,41 +23,41 @@ body {
 }
 
 .d-flex {
-  display: flex;
+  display: flex !important;
 }
 
 .flex-column {
-  flex-direction: column;
+  flex-direction: column !important;
 }
 
 .flex-justify-c-center {
-  justify-content: center;
+  justify-content: center !important;
 }
 
 .flex-align-i-center {
-  align-items: center;
+  align-items: center !important;
 }
 
 .b-primary-color {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color) !important;
 }
 
 .b-secondary-color {
-  background-color: var(--secondary-color);
+  background-color: var(--secondary-color) !important;
 }
 
 .f-primary-color {
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
 }
 
 .f-secondary-color {
-  color: var(--secondary-color);
+  color: var(--secondary-color) !important;
 }
 
 .text-primary {
-  color: var(--primary-text-color);
+  color: var(--primary-text-color) !important;
 }
 
 .text-secondary {
-  color: var(--secondary-text-color);
+  color: var(--secondary-text-color) !important;
 }
