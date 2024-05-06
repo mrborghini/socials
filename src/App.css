@@ -1,0 +1,11 @@
+body {
+  background-color: var(--primary-color);
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:visited {
+  color: var(--link-visited);
+}
