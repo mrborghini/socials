@@ -1,6 +1,7 @@
 import { mySocials } from '../MySocials';
 import SocialMedia from '../components/SocialMedia';
 import { ReactElement } from 'react';
+import LoadingScreen from './LoadingScreen';
 
 function Home(): ReactElement {
     const socialMediaElements: ReactElement[] = [];
@@ -10,6 +11,7 @@ function Home(): ReactElement {
 
     return (
         <main className='Home'>
+            <LoadingScreen></LoadingScreen>
             {socialMediaElements}
         </main>
     );
