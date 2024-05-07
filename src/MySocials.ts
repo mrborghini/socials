@@ -1,6 +1,7 @@
 import { SocialInfo } from "./types/SocialInfo";
 import Twitter from './assets/twitter.svg';
 import Youtube from './assets/youtube.svg';
+import Discord from './assets/discord.svg';
 
 const socials: SocialInfo[] = [{
     id: 1,
@@ -15,6 +16,12 @@ const socials: SocialInfo[] = [{
     url: "https://www.youtube.com/channel/UCnRW7gN7dpmD7rCixHKHXfw",
     image: Youtube,
     alt: "youtube-logo"
+}, {
+    id: 3,
+    title: "Lambo community server",
+    url: "https://discord.gg/z48t39mW27",
+    image: Discord,
+    alt: "discord-logo"
 }];
 
 function sortSocials(socials: SocialInfo[]) {

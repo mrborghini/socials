@@ -22,11 +22,20 @@ a:visited {
   border-radius: 20%;
   box-shadow: 10px 10px 10px var(--box-shadow-color);
   transition: ease-in 0.2s;
+  word-break: break-word;
+  text-align: center;
+}
+
+.socialMedia span {
+  width: 80%;
+  position: absolute;
+  top: 1px;
 }
 
 .socialMedia:hover {
   transition: ease-out 0.2s;
   background-color: var(--hover-color) !important;
+  animation: shake 0.2s infinite;
 }
 
 .socialMedia a {
@@ -43,6 +52,34 @@ a:visited {
 
 .socialMedia img {
   width: 80%;
+  transition: ease 0.5s;
+}
+
+.socialMedia:hover img {
+  transform: scale(0.5);
+  transition: ease 0.5s;
+}
+
+@keyframes shake {
+  0% {
+    rotate: 0deg;
+  }
+
+  25% {
+    rotate: 1deg;
+  }
+
+  50% {
+    rotate: -1deg;
+  }
+
+  75% {
+    rotate: 1deg;
+  }
+
+  100% {
+    rotate: 0deg;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -65,7 +102,6 @@ a:visited {
 }
 
 .Home {
-  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;

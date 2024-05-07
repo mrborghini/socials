@@ -10,7 +10,7 @@ function SocialMedia({ socialInfo }: Props): ReactElement {
         <>
             <section className="socialMedia d-flex flex-justify-c-center b-secondary-color">
                 <a className="text-primary" href={socialInfo.url} target="_blank">
-                    <p>{socialInfo.title}</p>
+                    <span>{socialInfo.title}</span>
                     <img src={socialInfo.image} alt={socialInfo.alt} />
                 </a>
             </section>
