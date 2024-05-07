@@ -47,7 +47,6 @@ a:visited {
 
 @media screen and (max-width: 768px) {
   .Home {
-    height: auto !important;
     flex-direction: column;
     flex-wrap: nowrap;
   }
@@ -67,7 +66,6 @@ a:visited {
 
 .Home {
   width: 100vw;
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
