@@ -19,41 +19,41 @@ body {
 }
 
 .d-flex {
-  display: flex !important;
+  display: flex;
 }
 
 .flex-column {
-  flex-direction: column !important;
+  flex-direction: column;
 }
 
 .flex-justify-c-center {
-  justify-content: center !important;
+  justify-content: center;
 }
 
 .flex-align-i-center {
-  align-items: center !important;
+  align-items: center;
 }
 
 .b-primary-color {
-  background-color: var(--primary-color) !important;
+  background-color: var(--primary-color);
 }
 
 .b-secondary-color {
-  background-color: var(--secondary-color) !important;
+  background-color: var(--secondary-color);
 }
 
 .f-primary-color {
-  color: var(--primary-color) !important;
+  color: var(--primary-color);
 }
 
 .f-secondary-color {
-  color: var(--secondary-color) !important;
+  color: var(--secondary-color);
 }
 
 .text-primary {
-  color: var(--primary-text-color) !important;
+  color: var(--primary-text-color);
 }
 
 .text-secondary {
-  color: var(--secondary-text-color) !important;
+  color: var(--secondary-text-color);
 }
