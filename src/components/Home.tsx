@@ -18,14 +18,19 @@ function Home(): ReactElement {
 
         const loadImages = async () => {
             const elements: ReactElement[] = [];
-            const promises = mySocials.map((social) => loadImage(social.image));
-            await Promise.all(promises);
+            const promises = [];
+
             for (let i = 0; i < mySocials.length; i++) {
+                promises.push(loadImage(mySocials[i].image));
                 elements.push(<SocialMedia key={mySocials[i].id} socialInfo={mySocials[i]} />);
             }
+
+            await Promise.all(promises);
+
             setSocialMediaElements(elements);
             setLoading(false);
         };
+
 
         loadImages();
     }, []);
