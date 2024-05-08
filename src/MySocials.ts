@@ -1,7 +1,7 @@
 import { SocialInfo } from "./types/SocialInfo";
-import Twitter from './assets/twitter.svg';
-import Youtube from './assets/youtube.svg';
-import Discord from './assets/discord.svg';
+import Twitter from '/twitter.svg';
+import Youtube from '/youtube.svg';
+import Discord from '/discord.svg';
 
 const socials: SocialInfo[] = [{
     id: 1,
