@@ -6,34 +6,34 @@ import Twitch from '/twitch.svg';
 import Github from '/github.svg';
 
 const socials: SocialInfo[] = [{
-    id: 1,
+    id: 5,
     title: "mrborghini_",
     url: "https://twitter.com/mrborghini_",
     image: Twitter,
     alt: "twitter-logo"
 },
 {
-    id: 2,
+    id: 3,
     title: "mrborghini",
     url: "https://www.youtube.com/channel/UCnRW7gN7dpmD7rCixHKHXfw",
     image: Youtube,
     alt: "youtube-logo"
 }, {
-    id: 3,
+    id: 4,
     title: "Lambo community server",
     url: "https://discord.gg/z48t39mW27",
     image: Discord,
     alt: "discord-logo"
 },
 {
-    id: 4,
+    id: 2,
     url: "https://www.twitch.tv/mrborghini_",
     title: "mrborghini_",
     image: Twitch,
     alt: "twitch-logo"
 },
 {
-    id: 5,
+    id: 1,
     url: "https://github.com/lamborghinigamer1",
     title: "lamborghinigamer1",
     image: Github,
