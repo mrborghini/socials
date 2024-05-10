@@ -2,6 +2,8 @@ import { SocialInfo } from "./types/SocialInfo";
 import Twitter from '/twitter.svg';
 import Youtube from '/youtube.svg';
 import Discord from '/discord.svg';
+import Twitch from '/twitch.svg';
+import Github from '/github.svg';
 
 const socials: SocialInfo[] = [{
     id: 1,
@@ -22,7 +24,22 @@ const socials: SocialInfo[] = [{
     url: "https://discord.gg/z48t39mW27",
     image: Discord,
     alt: "discord-logo"
-}];
+},
+{
+    id: 4,
+    url: "https://www.twitch.tv/mrborghini_",
+    title: "mrborghini_",
+    image: Twitch,
+    alt: "twitch-logo"
+},
+{
+    id: 5,
+    url: "https://github.com/lamborghinigamer1",
+    title: "lamborghinigamer1",
+    image: Github,
+    alt: "github-logo"
+}
+];
 
 function sortSocials(socials: SocialInfo[]) {
     for (let i = 0; i < socials.length - 1; i++) {

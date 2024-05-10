@@ -51,9 +51,11 @@ a:visited {
   text-decoration: none;
 }
 
-.socialMedia img {
+.socialMedia a img {
+  position: absolute;
   width: 80%;
   transition: ease 0.5s;
+  bottom: 1px;
 }
 
 .socialMedia:hover img {
@@ -102,16 +104,24 @@ a:visited {
   }
 }
 
-.Home {
+.SocialMedias {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
 
+.total-center {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
 .LoadingScreen {
-  width: 10vw;
-  height: 10vw;
+  width: calc(14px + 10vw);
+  height: calc(14px + 10vw);
   border: 10px solid #ccc;
   border-radius: 100%;
   border-top: 10px solid var(--hover-color);
@@ -127,4 +137,12 @@ a:visited {
   100% {
     transform: rotate(360deg)
   }
+}
+
+.Greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  word-break: break-word;
 }

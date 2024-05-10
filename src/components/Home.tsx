@@ -2,6 +2,7 @@ import { mySocials } from '../MySocials';
 import SocialMedia from '../components/SocialMedia';
 import { ReactElement, useEffect, useState } from 'react';
 import LoadingScreen from './LoadingScreen';
+import Greeting from './Greeting';
 
 function Home(): ReactElement {
     const [socialMediaElements, setSocialMediaElements] = useState<ReactElement[]>([]);
@@ -37,7 +38,7 @@ function Home(): ReactElement {
 
     if (loading) {
         return (
-            <main className='Home'>
+            <main className='total-center'>
                 <LoadingScreen />
             </main>
         );
@@ -45,7 +46,10 @@ function Home(): ReactElement {
 
     return (
         <main className='Home'>
-            {socialMediaElements}
+            <Greeting></Greeting>
+            <section className='SocialMedias'>
+                {socialMediaElements}
+            </section>
         </main>
     );
 }

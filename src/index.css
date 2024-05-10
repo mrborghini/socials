@@ -16,6 +16,10 @@ body {
   box-sizing: border-box;
 }
 
+p {
+  color: var(--primary-text-color);
+}
+
 .d-flex {
   display: flex;
 }

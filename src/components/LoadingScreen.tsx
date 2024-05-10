@@ -3,9 +3,7 @@ import { ReactElement } from "react";
 function LoadingScreen(): ReactElement {
     return (
         <>
-            <div className="LoadingScreen">
-                
-            </div>
+            <div className="LoadingScreen"></div>
         </>
     );
 }
