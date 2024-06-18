@@ -34,8 +34,8 @@ const socials: SocialInfo[] = [{
 },
 {
     id: 1,
-    url: "https://github.com/lamborghinigamer1",
-    title: "lamborghinigamer1",
+    url: "https://github.com/mrborghini",
+    title: "mrborghini",
     image: Github,
     alt: "github-logo"
 }
